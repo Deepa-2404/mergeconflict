@@ -1,0 +1,111 @@
+/* General Reset */
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f9ff;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #0077cc;
+  color: white;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  margin: 0 12px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active, nav a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0,119,204,0.8), rgba(0,119,204,0.8)), url('https://picsum.photos/seed/water/1200/600') no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 2.5em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  margin-top: 15px;
+  background: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+
+/* Forms */
+.form-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin: auto;
+}
+
+form input, form textarea, form select {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+/* Dashboard */
+.report-card {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.report-card p {
+  margin: 6px 0;
+}
+
+.status-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: #e9f7ff;
+  border: 1px solid #0077cc;
+  border-radius: 6px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #0077cc;
+  color: white;
+  margin-top: 30px;
+}

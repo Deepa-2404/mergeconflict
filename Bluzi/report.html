@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Report Issue - Bluzi</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>💧 Bluzi</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="report.html" class="active">Report Issue</a>
+      <a href="status.html">Check Status</a>
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>📝 Report an Issue</h2>
+    <form id="reportForm" class="form-card">
+      <label>Name:</label>
+      <input type="text" id="name" required>
+
+      <label>Location:</label>
+      <input type="text" id="location" required>
+
+      <label>Type of Place:</label>
+      <select id="placeType" required>
+        <option value="">--Select--</option>
+        <option>College</option>
+        <option>Hospital</option>
+        <option>Roadside Tank</option>
+        <option>Community</option>
+      </select>
+
+      <label>Issue:</label>
+      <textarea id="issue" required></textarea>
+
+      <label>Upload Photo (optional):</label>
+      <input type="file" id="photo" accept="image/*">
+
+      <button type="submit" class="btn">🚀 Submit Report</button>
+    </form>
+    <p id="reportMessage"></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Bluzi</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Bluzi</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>💧 Bluzi</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="report.html">Report Issue</a>
+      <a href="status.html">Check Status</a>
+      <a href="dashboard.html" class="active">Dashboard</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>📊 Worker/Admin Dashboard</h2>
+    <button onclick="loadReports()" class="btn">🔄 Refresh Reports</button>
+    <div id="dashboardReports"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Bluzi</p>
+  </footer>
+</body>
+</html>
